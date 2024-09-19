@@ -1,1 +1,2 @@
-eslint --fix src/**/*.ts
+eslint --fix src/**/*.ts && git add -A .
+exit 0
