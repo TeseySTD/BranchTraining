@@ -233,7 +233,7 @@ class App {
                         emailInput.value,
                     )
                 ) {
-                    let newUser = new User(
+                    const newUser = new User(
                         Date.now(),
                         nameInput.value,
                         emailInput.value,
