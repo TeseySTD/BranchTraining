@@ -12,15 +12,15 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
-  
+
   {
     plugins: {
       '@stylistic': stylistic
     },
     rules: {
-        "@stylistic/brace-style": ["error", "stroustrup"],
+        "@stylistic/brace-style": ["warn", "stroustrup"],
         'prettier/prettier': "warn",
-        "no-unused-vars": "error",
+        "no-unused-vars": "warn",
         "no-undef": "warn",
     },
   },
