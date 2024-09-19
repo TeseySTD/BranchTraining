@@ -38,8 +38,7 @@ class App {
         );
     }
 
-    private renderApp() 
-    {
+    private renderApp() {
         document.body.innerHTML = `
             <div class="container mt-4 col-md-6" id="app">
                 <h1 class="mb-4">Library Management System</h1>
