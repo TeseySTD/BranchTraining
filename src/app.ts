@@ -23,8 +23,7 @@ class App {
         this.renderApp();
     }
 
-    private loadInitialData() 
-    {
+    private loadInitialData() {
         const savedBooks = this.storage.getBooks();
         savedBooks.forEach((book) =>
             this.library.addItem(
@@ -39,7 +38,8 @@ class App {
         );
     }
 
-    private renderApp() {
+    private renderApp() 
+    {
         document.body.innerHTML = `
             <div class="container mt-4 col-md-6" id="app">
                 <h1 class="mb-4">Library Management System</h1>
